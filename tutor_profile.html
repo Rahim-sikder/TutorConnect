@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TutorConnect</title>
+    <link rel="stylesheet" href="boot/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="boot/css/style.css" />
+<link rel="stylesheet" href="boot/icons/font/bootstrap-icons.css">
+
+
+<script defer src="boot/js/bootstrap.bundle.min.js" ></script>
+<script src="boot/js/jquery.slim.min.js"></script>
+
+</head>
+<body>
+    <section>
+        <nav class="navbar navbar-expand-lg" style="background-color: rgb(189, 241, 241);">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">TutorConnect</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="tutor_reg.html">Become A Tutor</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="student_reg.html">Be A Student</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Contact</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">LogOut</a>
+                        </li>
+                    </ul>
+        
+                </div>
+            </div>
+        </nav>
+    </section>
+    
+
+
+
+
+
+    <!-- Content to display tutor details -->
+    <div class="container mt-5">
+        <h2 class="text-center mb-4" id="teacherName"></h2>
+        <p id="teacherDetails"></p>
+        
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="boot/images/anis.jpg" class="img-fluid rounded-start" alt="Card Image">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Anisul Islam</h5>
+                        <p class="card-text">BSC Engineer and got PHD from Australia</p>
+                        
+                        <p class="card-text"><small class="text-muted"> Math, English, Ict</small></p>
+                        <!-- Add a link to the details page -->
+                        <a href="tutor_profile.html" class="btn btn-primary">Show Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <!-- Back button to return to the main page -->
+        <a href="student_home.html" class="btn btn-secondary">Back to Search</a>
+    </div>
+
+    <!-- Include necessary scripts, such as Bootstrap and your custom scripts -->
+
+</body>
+</html>

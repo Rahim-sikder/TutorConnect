@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TutorConnect</title>
+    <link rel="stylesheet" href="boot/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="boot/css/style.css" />
+<link rel="stylesheet" href="boot/icons/font/bootstrap-icons.css">
+
+
+<body>
+
+<div class="container mt-5">
+    <h2 style="text-align: center;">Student Registration Form </h2>
+    <form>
+        <div class="form-group">
+            <label for="studentName">Student Name</label>
+            <input type="text" class="form-control" id="studentName" placeholder="Enter your full name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+            <label for="parentContact">Parent's Contact Number</label>
+            <input type="tel" class="form-control" id="parentContact" placeholder="Enter parent's contact number" required>
+        </div>
+        <div class="form-group">
+            <label for="address">Address</label>
+            <textarea class="form-control" id="address" rows="3" placeholder="Enter your address" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="city">City</label>
+            <input type="text" class="form-control" id="city" placeholder="Enter your city" required>
+        </div>
+        <div class="form-group">
+            <label for="gender">Gender</label>
+            <select class="form-control" id="gender" required>
+                <option value="" disabled selected>Select your gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="classSelection">Class Selection</label>
+            <input type="text" class="form-control" id="classSelection" placeholder="Enter your class" required>
+        </div>
+        <div class="form-group">
+            <label for="courses">Courses</label>
+            <input type="text" class="form-control" id="courses" placeholder="Enter courses you are interested in" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+<!-- Add Bootstrap JS and Popper.js scripts -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="..." crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="..." crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="..." crossorigin="anonymous"></script>
+
+</body>
+</html>

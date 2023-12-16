@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('/boot/images/tu.jpg'); /* Replace with your image file */
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.header-content {
+    max-width: 600px;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4cafa7;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 50px;
+}
+
+#about, #services, #contact {
+    background-color: #f9f9f9;
+}
+
+#about h2, #services h2, #contact h2 {
+    color: #333;
+}
+
+#about p, #services p, #contact p {
+    line-height: 1.6;
+    color: #555;
+}

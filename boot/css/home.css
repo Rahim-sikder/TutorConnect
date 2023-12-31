@@ -14,3 +14,12 @@
    font-weight: 700;
    margin-left: 90px;
 } */
+/* who can use this section */
+.description{
+     color: rgb(154, 152, 152);
+     padding-top: 30px;
+ 
+}
+.card-text{
+   color: rgb(154, 152, 152); 
+}
